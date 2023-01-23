@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Montserrat&family=Patrick+Hand&family=Poppins&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: rgb(20, 2, 42);
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(24, 19, 29);
+    opacity: 90%;
+    z-index: -1;
+}
+.logo a{
+    font-size: 40px;
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: 800;
+}
+
+nav ul{
+    list-style: none;
+}
+.nav__item a{
+    font-family: 'Poppins', sans-serif;
+    color: aliceblue;
+    padding: 10px;
+    font-size: 25px;
+    text-decoration: none;
+    border-radius: 8px;
+    margin: 10px;
+    letter-spacing: 0.1em;
+}
+.hire__link{
+    outline: 1px ;
+    background-color: blueviolet;
+}
+nav li{
+    display: inline-block;
+    justify-content: space-around;
+}
